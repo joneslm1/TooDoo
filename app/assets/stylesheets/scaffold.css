@@ -1,13 +1,20 @@
 body {
   background-color: #fff;
-  color: #333;
+  color: white;
 }
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   line-height: 18px;
-  margin: 33px;
+  margin: 50px;
+  color: black;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+#white {
+  color: white;
 }
 
 pre {
@@ -33,10 +40,12 @@ th {
   padding-bottom: 5px;
 }
 
-td {
+td, tr, #table {
   padding-bottom: 7px;
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 5px;
+  margin: 25px;
 }
 
 div.field,
